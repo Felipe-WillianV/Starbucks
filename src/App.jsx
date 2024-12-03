@@ -3,7 +3,7 @@ import MainApp from './componentes/MainApp';
 
 function App() {
     return (
-        <Router>
+        <Router basename="/Starbucks">
             <MainApp />
         </Router>
     );

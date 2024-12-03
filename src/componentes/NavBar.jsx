@@ -10,7 +10,7 @@ function NavBar() {
     return (
         <nav className="nav">
          <Container>
-             <img className="img"  alt="Starbucks" />
+             <img className="img" src={Logo} alt="Starbucks" />
             <ul className="ul">
             <li className="li">
                 <Link to="/">Welcome</Link>
