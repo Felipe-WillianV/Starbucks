@@ -6,10 +6,10 @@ function Frapuccino() {
   const [currentImage, setCurrentImage] = useState('src/img/img1.png');
 
   const images = {
-    frappuccino: 'src/img/img1.png',
-    caramelo: 'src/img/caramelo.png',
-    unicorn: 'src/img/unicorn.png',
-    tea: 'src/img/tea.png',
+    frappuccino: './img/img1.png',
+    caramelo: './img/caramelo.png',
+    unicorn: './img/unicorn.png',
+    tea: './img/tea.png',
   };
 
   const handleChangeImage = (image) => {
