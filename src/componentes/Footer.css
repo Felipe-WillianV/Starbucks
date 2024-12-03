@@ -1,0 +1,55 @@
+.footer {
+    color: #333;
+    padding: 1.2em;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.social_list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.social_list li {
+    margin-top: 1em;
+}
+
+.social_list li:hover {
+    color: green;
+}
+
+.social_list svg {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.copy_right {
+    margin-top: 1em;
+}
+
+.copy_right span {
+    font-weight: bold;
+    color: green;
+}
+
+/* Estilos responsivos para telas menores (celulares) */
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 480px) {
+    .footer {
+        margin-top: 115px;
+    }
+}
+
+@media (max-width: 375px) {
+    .footer {
+        margin-top: 250px;
+    }
+}
+
+
+

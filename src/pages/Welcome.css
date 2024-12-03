@@ -1,0 +1,166 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px 50px 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin-top: 0;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .text {
+    position: relative;
+    max-width: 600px;
+}
+
+.content .text h2 {
+    color: #333;
+    font-size: 4em;
+    line-height: 1em;
+    font-weight: 500;
+}
+
+.content .text h2 span {
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+
+}
+
+.content .text p {
+    color: #333;
+}
+
+.content .text a {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.content .text a:hover { 
+    transform: scale(1.1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.content .imgBox {
+    width: 900px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    margin-right: 50px;
+    height: 500px;
+}
+
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #017143;
+    clip-path: circle(560px at right 625px);
+}
+
+.whats_link {
+    display: noneS;
+} 
+
+/* Estilos responsivos */
+@media (max-width: 1024px) {
+    .section {
+        padding: 0px 30px 10px 30px;
+    }
+
+    .content .text h2 {
+        font-size: 3em;
+    }
+
+    .content .imgBox {
+        width: 600px; /* Reduz o tamanho da imagem */
+        height: 400px;
+        margin-right: 20px;
+    }
+
+    .circle {
+        clip-path: circle(500px at right 500px);
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column; /* Empilha o texto e a imagem */
+        text-align: center;
+    }
+
+    .content .text {
+        max-width: 100%;
+    }
+
+    .content .text h2 {
+        font-size: 2.5em;
+    }
+
+    .content .imgBox {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .circle {
+        clip-path: circle(375px at right 745px);;
+    }
+}
+
+@media (max-width: 480px) {
+    .section {
+        padding: 0px 15px 10px 15px;
+    }
+
+    .content .text h2 {
+        font-size: 2em;
+    }
+
+    .content .imgBox {
+        width: 100%;
+        height: auto;
+        margin-top: 35px;
+    }
+
+    .circle {
+        clip-path: circle(245px at right 635px);
+    }
+
+    .content .text a {
+        padding: 6px 15px; /* Reduz o tamanho do botão */
+        font-size: 0.9em;
+    }
+}
+
+
+
+

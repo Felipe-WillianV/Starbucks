@@ -1,0 +1,100 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+    padding: 1.5rem;
+    justify-content: flex-end;
+    flex-wrap: wrap; /* Permite quebra de linha em telas menores */
+    margin-top: 30px;
+}
+
+.li {
+    margin-right: 1em;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.li a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.li a:hover {
+    color: green;
+}
+
+.img {
+    position: absolute;
+    width: 80px;
+    height: auto;
+    left: 5rem;
+}
+
+.img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .ul {
+        justify-content: center; /* Centraliza o menu em telas menores */
+        padding: 1rem;
+        position: relative;
+        left: 30px;
+    }
+
+    .li {
+        margin-right: 0.5em;
+        font-size: small;
+    }
+
+    .li a {
+        margin-left: 15px;
+        font-size: 0.9em; /* Reduz o tamanho da fonte dos links */
+    }
+
+    .img {
+        width: 60px; /* Reduz o tamanho da imagem */
+        left: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .ul {
+        flex-direction: column; /* Organiza o menu em uma coluna */
+        align-items: center; /* Centraliza os itens */
+        position: relative;
+        left: 10px;
+    }
+
+    .li {
+        margin-right: 0; /* Remove o espaçamento lateral */
+        margin-bottom: 0.5rem; /* Adiciona espaçamento entre os itens */
+        font-size: medium;
+    }
+
+    .li a {
+        font-size: 0.8em;
+        margin-left: 10px;
+    }
+
+    .img {
+        width: 50px; /* Reduz ainda mais o tamanho da imagem */
+        left: 1rem;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .img {
+        width: 50px; /* Reduz ainda mais o tamanho da imagem */
+        left: 1rem;
+        top: 6rem;
+    }
+
+}
