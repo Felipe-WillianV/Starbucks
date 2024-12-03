@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import './Frapuccino.css';
 
 function Frapuccino() {
-  const [currentImage, setCurrentImage] = useState('img/img1.png');
+  const [currentImage, setCurrentImage] = useState('../img/img1.png');
 
   const images = {
     frappuccino: '../img/img1.png',
