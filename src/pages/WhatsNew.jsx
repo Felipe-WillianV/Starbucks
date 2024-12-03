@@ -3,10 +3,10 @@ import './WhatsNew.css';
 import Footer from '../componentes/Footer';
 
 const images = {
-  frappuccino: './img/frappuccino-drink.png',
-  caramelo: './img/caramelo.png',
-  unicorn: './img/unicorn.png',
-  tea: './img/tea.png',
+  frappuccino: 'img/frappuccino-drink.png',
+  caramelo: 'img/caramelo.png',
+  unicorn: 'img/unicorn.png',
+  tea: 'img/tea.png',
 };
 
 const newItems = [
