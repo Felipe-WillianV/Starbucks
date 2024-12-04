@@ -2,15 +2,15 @@ import React from 'react';
 import './Menu.css';
 
 const images = {
-  coffee: 'src/img/coffee.png',
-  frappuccino: 'src/img/frappuccino.png',
-  pastry: 'src/img/pastry.png',
-  icedLatte: 'src/img/iced-latte.png',
-  coldBrew: 'src/img/cold-brew.png',
-  macchiato: 'src/img/macchiato.png',
-  chaiLatte: 'src/img/chai-latte.png',
-  cakePop: 'src/img/cake-pop.png',
-  sandwich: 'src/img/sandwich.png',
+  coffee: 'img/coffee.png',
+  frappuccino: 'img/frappuccino.png',
+  pastry: 'img/pastry.png',
+  icedLatte: 'img/iced-latte.png',
+  coldBrew: 'img/cold-brew.png',
+  macchiato: 'img/macchiato.png',
+  chaiLatte: 'img/chai-latte.png',
+  cakePop: 'img/cake-pop.png',
+  sandwich: 'img/sandwich.png',
 };
 
 const menuItems = [

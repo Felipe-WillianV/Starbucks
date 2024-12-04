@@ -12,7 +12,7 @@ function MainApp() {
     const location = useLocation();
 
     // Rotas onde o Footer será exibido
-    const showFooterOn = ['/', '/menu', ];
+    const showFooterOn = ['/', '/menu', '/whatsnew', '/contact'];
 
     return (
         <>
@@ -30,4 +30,5 @@ function MainApp() {
     );
 }
 
-export default MainApp; 
+export default MainApp;
+
