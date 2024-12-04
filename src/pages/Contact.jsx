@@ -23,7 +23,7 @@ function Contact() {
                 </form>
             </section>
         </section>
-        <Footer />
+    
         </>
     );
 }

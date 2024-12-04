@@ -1,16 +1,27 @@
 import React from 'react';
 import './Menu.css';
 
+// Importando as imagens
+import coffee from '../img/coffee.png';
+import frappuccino from '../img/frappuccino.png';
+import pastry from '../img/pastry.png';
+import icedLatte from '../img/iced-latte.png';
+import coldBrew from '../img/cold-brew.png';
+import macchiato from '../img/macchiato.png';
+import chaiLatte from '../img/chai-latte.png';
+import cakePop from '../img/cake-pop.png';
+import sandwich from '../img/sandwich.png';
+
 const images = {
-  coffee: 'img/coffee.png',
-  frappuccino: 'img/frappuccino.png',
-  pastry: 'img/pastry.png',
-  icedLatte: 'img/iced-latte.png',
-  coldBrew: 'img/cold-brew.png',
-  macchiato: 'img/macchiato.png',
-  chaiLatte: 'img/chai-latte.png',
-  cakePop: 'img/cake-pop.png',
-  sandwich: 'img/sandwich.png',
+  coffee,
+  frappuccino,
+  pastry,
+  icedLatte,
+  coldBrew,
+  macchiato,
+  chaiLatte,
+  cakePop,
+  sandwich,
 };
 
 const menuItems = [

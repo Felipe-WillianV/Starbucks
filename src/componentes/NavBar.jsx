@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 import Container from './Container'
 
-import Logo from "/img/logo.png"
+import Logo from "../img/logo.png"
 
 import './NavBar.css'
 

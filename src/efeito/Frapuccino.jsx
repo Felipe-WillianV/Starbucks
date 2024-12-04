@@ -2,15 +2,23 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import './Frapuccino.css';
 
-function Frapuccino() {
-  const [currentImage, setCurrentImage] = useState('/img1.png');
+// Importando as imagens diretamente
+import frappuccino from '../img/frappuccino-drink.png';
+import caramelo from '../img/caramelo.png';
+import unicorn from '../img/unicorn.png';
+import tea from '../img/tea.png';
 
+function Frapuccino() {
+  // Objeto com as imagens importadas
   const images = {
-    frappuccino: '/img/frappuccino.png',
-    caramelo: '/img/caramelo.png',
-    unicorn: '/img/unicorn.png',
-    tea: '/img/tea.png',
-  };  
+    frappuccino,
+    caramelo,
+    unicorn,
+    tea,
+  };
+
+  // Estado inicial da imagem exibida
+  const [currentImage, setCurrentImage] = useState(images.frappuccino);
 
   const handleChangeImage = (image) => {
     setCurrentImage(image);

@@ -9,26 +9,27 @@ import Footer from '../componentes/Footer';
 import Container from '../componentes/Container';
 
 function MainApp() {
-    const location = useLocation();
+  const location = useLocation();
 
-    // Rotas onde o Footer será exibido
-    const showFooterOn = ['/', '/menu', '/whatsnew', '/contact'];
+  // Rotas onde o Footer será exibido
+  const showFooterOn = ['/', '/menu', '/whatsnew', '/contact'];
 
-    return (
-        <>
-            <NavBar />
-            <Container>
-                <Routes>
-                    <Route exact path="/" element={<Welcome />} />
-                    <Route path="/menu" element={<Menu />} />
-                    <Route path="/whatsnew" element={<WhatsNew />} />
-                    <Route path="/contact" element={<Contact />} />
-                </Routes>
-            </Container>
-            {showFooterOn.includes(location.pathname) && <Footer />}
-        </>
-    );
+  return (
+    <>
+      <NavBar />
+      <Container>
+        <Routes>
+          <Route exact path="/" element={<Welcome />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/whatsnew" element={<WhatsNew />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Container>
+      {showFooterOn.includes(location.pathname) && <Footer />}
+    </>
+  );
 }
 
 export default MainApp;
+
 
