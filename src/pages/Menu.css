@@ -87,3 +87,15 @@
 .order-button:hover {
     background-color: #004D2D;
 }
+
+@media (max-width: 480px) {
+    .menu-container {
+        margin-bottom: -130px;
+    }
+}
+
+@media (max-width: 370px) {
+    .menu-container {
+        margin-bottom: -245px;
+    }
+}

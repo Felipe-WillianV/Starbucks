@@ -84,17 +84,18 @@
     }
 
     .img {
-        width: 50px; /* Reduz ainda mais o tamanho da imagem */
+        width: 70px; /* Reduz ainda mais o tamanho da imagem */
         left: 1rem;
+        top: 5.2rem;
     }
 }
 
 @media (max-width: 375px) {
 
     .img {
-        width: 50px; /* Reduz ainda mais o tamanho da imagem */
+        width: 70px; /* Reduz ainda mais o tamanho da imagem */
         left: 1rem;
-        top: 6rem;
+        top: 5.2rem;
     }
 
 }
